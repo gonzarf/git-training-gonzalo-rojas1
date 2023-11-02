@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -33,6 +34,9 @@ public class Main {
             }
         }
 
-        System.out.println(posiciones.toString());
+        System.out.println("Podio");
+
+        for (int i = 0; i< 3;i++)
+        System.out.println((i+1) + ".- " + posiciones.get(i));
     }
 }
